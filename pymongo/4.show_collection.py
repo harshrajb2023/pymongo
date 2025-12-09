@@ -8,6 +8,7 @@ if __name__ == "__main__":
     
     collect=client['harsh_DB']
     coll_name=collect.list_collection_names()
+    // print list of collection name
     print(coll_name)
     
     
